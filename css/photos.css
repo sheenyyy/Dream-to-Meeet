@@ -1,0 +1,103 @@
+body{
+	background-color: darkturquoise
+}
+.menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:5px;
+	height: 10vh;
+	padding: 5px;
+	background-color:blue;
+}
+.button{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+.button li{
+	list-style: none;
+	border: 2px black solid;
+	height: 5vh;
+	text-align: center;
+	background-color: powderblue;
+}
+.button a{
+	text-decoration: none;
+	color: black;
+}
+.boxes{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(4,1fr);
+	height: 90vh;
+	grid-gap: 10px;
+	margin-bottom: 15px;
+}
+.b1{
+	background-image: url(../images/10.jpg);
+	background-size: cover;
+	border:2px black solid;
+	grid-column:1;
+	grid-row: 1;
+	height: 70vh;
+}
+.b2{
+	background-image: url(../images/2.jpg);
+	background-size: cover;
+	border:2px black solid;
+	grid-column:2/3;
+	grid-row: 1/2;
+	height: 70vh;
+}
+.b3{
+	background-image: url(../images/3.jpg);
+	background-size: cover;
+	border:2px black solid;
+	grid-column:3/4;
+	grid-row: 1/2;
+	height: 70vh;
+}
+.b4{
+	background-image: url(../images/4.jpg);
+	border:2px black solid;
+	grid-column:1/4;
+	grid-row: 2/3;
+	height: 80vh;
+}
+.b5{
+	background-image: url(../images/5.jpg);
+	background-size: cover;
+	border:2px black solid;
+	grid-column:1/2;
+	grid-row: 3/4;
+	height: 80vh;
+}
+.b6{
+	background-image: url(../images/6.jpg);
+	background-size: cover;
+	border:2px black solid;
+	grid-column:2/3;
+	grid-row: 3/4;
+}
+.b7{
+	background-image: url(../images/7.jpg);
+	background-size: cover;
+	border:2px black solid;
+	grid-column:3/4;
+	grid-row: 3/4;
+}
+.style{
+	border: 2px black solid;
+	padding: 50px;
+	margin-bottom: 15px;
+}
+.footer{
+	border: 2px black solid;
+	padding: 5px;
+	text-align: center;
+	background-color: black;
+}
+.footer li{
+	list-style: none;
+	color: green;
+}

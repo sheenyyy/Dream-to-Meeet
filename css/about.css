@@ -1,0 +1,127 @@
+body{
+	background-color:dodgerblue;
+}
+.menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:5px;
+	height: 10vh;
+	padding: 5px;
+	background-color:blue;
+}
+.button{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+}
+.button li{
+	list-style: none;
+	border: 2px black solid;
+	height: 5vh;
+	text-align: center;
+	background-color: powderblue;
+}
+.button a{
+	text-decoration: none;
+	color: black;
+}
+.style{
+	border: 2px black solid;
+	padding: 30px;
+	margin-bottom: 15px;
+	background-color: teal;
+}
+.footer{
+	border: 2px black solid;
+	padding: 5px;
+	text-align: center;
+	background-color: black;
+}
+.footer li{
+	list-style: none;
+	color: green;
+}
+
+.pic{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row: repeat(4,1fr);
+	grid-gap: 10px;
+	height: 60vh;
+	margin-bottom: 15px;
+}
+.pic1{
+	grid-column: 1/2;
+	grid-row: 1/4;
+	background-image: url(../images/11.jpg);
+	border: 2px black solid;
+	background-size: cover;
+	background-position: center;
+}
+.pic2{
+	grid-column: 2/3;
+	grid-row: 1/4;
+	background-image: url(../images/12.jpg);
+	border: 2px black solid;
+	background-size: cover;
+	background-position: center;
+}
+.pic3{
+	grid-column: 3/4;
+	grid-row: 1/4;
+	background-image: url(../images/18.jpg);
+	border: 2px black solid;
+	background-size: cover;
+	background-position: center;
+	height:45vh;
+}
+.txt1{
+	grid-column: 1/2;
+	grid-row:4/5;
+	border: 2px black solid;
+	height:10vh;
+	background-color: lightseagreen;
+}
+.txt2{
+	grid-column: 2/3;
+	grid-row:4/5;
+	border: 2px black solid;
+	height:10vh;
+	background-color: lightseagreen;
+}
+.txt3{
+	grid-column: 3/4;
+	grid-row:4/5;
+	border: 2px black solid;
+	height:10vh;
+	background-color: lightseagreen;
+}
+.boxes{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 30vh;
+	margin-bottom: 15px;
+	grid-gap: 10px;
+}
+.box1{
+	border: 2px black solid;
+	background-image: url(../images/13.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.box2{
+	border: 2px black solid;
+	background-image: url(../images/16.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.box3{
+	border: 2px black solid;
+	background-image: url(../images/14.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.video{
+	height: 50vh;
+	margin-bottom: 5px;
+}
